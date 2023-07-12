@@ -50,4 +50,4 @@ jobs:
             docker pull ktytong/react-cicd:latest
             docker stop react-cicd
             docker rm react-cicd
-            docker run -d --name react-cicd -p 80:80 ktytong/react-ci:latest
+            docker run -d --name react-cicd -p 80:80 ktytong/react-cicd:latest
